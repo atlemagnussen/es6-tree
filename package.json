@@ -1,0 +1,30 @@
+{
+  "name": "ez-tree",
+  "version": "0.0.1",
+  "description": "tree view for web with vanilla js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlemagnussen/ez-tree.git"
+  },
+  "keywords": [
+    "web",
+    "html",
+    "js",
+    "css",
+    "treeview"
+  ],
+  "author": "Atle Magnussen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atlemagnussen/ez-tree/issues"
+  },
+  "homepage": "https://github.com/atlemagnussen/ez-tree#readme",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
+}
