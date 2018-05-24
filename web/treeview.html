@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Treeview test</title>
+</head>
+
+<body>
+    <h2>Treeview test</h3>
+    <div class="treeview">
+    </div>
+    <script src="/treeview.js"></script>
+    <script src="/treeview-test.js"></script>
+    <style>
+        details details {margin-left:10pt;}
+        .treeview {
+          padding:5pt;
+          border:inset 2px lightGray;
+          width:240pt;
+          font:10pt Arial;
+          display:inline-block;
+        }
+        summary[selected="true"]{
+          background-color:yellow;
+        }
+
+        summary {
+          cursor:pointer;
+        }
+        summary:hover {
+          background-color:#C0e0ff;
+        }
+        summary .icon {
+          width:16px;
+          height:16px;
+        }
+        /* Hide the marker (if possible) if a node is a leaf node */
+        summary:only-child::-webkit-details-marker {
+          color:transparent;
+        }
+        details details {
+          margin-left:10pt;
+          display:block;
+        }
+        #display {
+          display:inline-block;
+          vertical-align:top;
+        }
+        #display {font-family:Arial;}
+        .label {font-size:14pt;font-weight:bold;}
+        .descr {font-size:10pt}
+    </style>
+</body>
+
+</html>
