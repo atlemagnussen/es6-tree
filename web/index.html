@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ez-tree</title>
+    <link rel="stylesheet" href="/eztree.css">
     <link rel="stylesheet" href="/icons/octicons.css">
 </head>
 
@@ -15,7 +16,20 @@
         import idx from './index.js';
     </script>
 
-    <div id="tree"></div>
+    <div id="tree">
+        <ol class="list-tree">
+            <li>
+                <div class="header list-item icon-chevron-right">
+                    <span class="icon icon-file-directory">Web</span>
+                </div>
+            </li>
+            <li>
+                <div class="header list-item icon-chevron-right">
+                    <span class="icon icon-file-directory">public</span>
+                </div>
+            </li>
+        </ol>
+    </div>
 
     <span class="icon icon-file-directory">Web</span>
 </body>
