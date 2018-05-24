@@ -3,11 +3,20 @@ body {
     /* font-size: 2em; */
     /* font-size: 30px; */
 }
-.list-tree {
-    list-style: none;
-    padding: 5px
+
+.ez-tree details{
+    padding: 2px
 }
+
 details details {
     margin-left: 1em;
-    display:block;
+    display: block;
+}
+
+.ez-tree details.leaf > summary {
+    list-style: none;
+}
+
+.ez-tree details.leaf > summary::-webkit-details-marker {
+    display: none;
 }
