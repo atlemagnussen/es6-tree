@@ -16,6 +16,7 @@
         import idx from './index.js';
     </script>
 
+    <p>Test with ol-li</p>
     <div id="tree">
         <ol class="list-tree">
             <li>
@@ -30,27 +31,24 @@
             </li>
         </ol>
     </div>
-
-    <div class="treeview">
+    <p>Mock up details summary</p>
+    <div class="treeview-test">
         <details>
             <summary id="root">Root</summary>
-        <details>
-            <summary id="item-1">Item 1</summary>
             <details>
-                <summary id="item-1-1">Item 1.1</summary>
+                <summary id="item-1">Item 1</summary>
                 <details>
-                    <summary id="item-1-2">Item 1.2</summary>
+                    <summary id="item-1-1">Item 1.1</summary>
                     <details>
-                        <summary id="item-1-2-1">Item 1.2.1</summary>
+                        <summary id="item-1-2">Item 1.2</summary>
+                        <details>
+                            <summary id="item-1-2-1">Item 1.2.1</summary>
+                        </details>
                     </details>
                 </details>
             </details>
             <details>
-                <summary id="item-1-2">Item 1.2</summary>
-            </details>
-        </details>
-        <details>
-            <summary id="item-2">Item 2</summary>
+                <summary id="item-2">Item 2</summary>
                 <details>
                     <summary id="item-2-1">Item 2.1</summary>
                 </details>
@@ -63,7 +61,13 @@
             </details>
         </details>
     </div>
+    <p>Js implementation of summary details</p>
+    <div id="eztree">
 
+    </div>
+    <p>
+        Other treeview test: <a href="treeview.html">treeview</a>
+    </p>
 </body>
 
 </html>

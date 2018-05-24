@@ -1,4 +1,13 @@
+body {
+    /* font-size: 20px; */
+    /* font-size: 2em; */
+    /* font-size: 30px; */
+}
 .list-tree {
     list-style: none;
-    padding: 5px;
+    padding: 5px
+}
+details details {
+    margin-left: 1em;
+    display:block;
 }
