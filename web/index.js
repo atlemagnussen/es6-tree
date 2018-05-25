@@ -67,6 +67,9 @@ class Index {
         }
 
         this.tree = new EzTree('eztree', config, data)
+        this.tree.on('select', e => {
+            console.log("from index.js");
+        })
     }
 }
 

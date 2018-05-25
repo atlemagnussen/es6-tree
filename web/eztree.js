@@ -22,6 +22,7 @@ export class EzTree {
             var s = document.createElement('summary');
             s.id = n.id;
             var span = document.createElement('span')
+            span.id = n.id;
             span.innerText = n.name;
             s.appendChild(span);
             this.handleType(n, span);
@@ -43,6 +44,23 @@ export class EzTree {
                     el.classList.add(...classes);
                 }
             }
+        }
+    }
+
+    on(eventName, fn) {
+        var me = this;
+        switch (eventName) {
+            case "select":
+                {
+                    this.parentEl.addEventListener("click", (event) => {
+                        console.log(`event.target.nodeName=${event.target.nodeName}`);
+                        if (event.target.nodeName == 'SPAN') {
+                            console.log(`event.target.id=${event.target.id}`);
+                            fn(event)
+                        }
+                    });
+                    break;
+                }
         }
     }
 }
