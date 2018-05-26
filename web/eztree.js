@@ -1,12 +1,12 @@
 export class EzTree {
     constructor(parentId, config, data) {
-        console.log('ez-tree');
+        this.selectedId = null;
         this.parentId = parentId;
         this.parentEl = document.getElementById(parentId);
         if (!this.parentEl) {
             throw new Error(`Can't find element with id ${parentId}`);
         }
-        this.parentEl.classList.add("ez-tree")
+        this.parentEl.classList.add("ez-tree");
         this.config = config;
         this.data = data;
         this.append(this.parentEl, this.data);
@@ -21,7 +21,7 @@ export class EzTree {
             p.appendChild(d);
             var s = document.createElement('summary');
             s.id = n.id;
-            var span = document.createElement('span')
+            var span = document.createElement('span');
             span.id = n.id;
             span.innerText = n.name;
             s.appendChild(span);
@@ -32,7 +32,7 @@ export class EzTree {
             } else {
                 d.classList.add("leaf");
             }
-        })
+        });
     }
 
     handleType(node, el) {
@@ -44,23 +44,47 @@ export class EzTree {
                     el.classList.add(...classes);
                 }
             }
+        } else {
+            if (node.children) {
+                el.classList.add("icon", "icon-file-directory");
+            }
         }
     }
 
     on(eventName, fn) {
-        var me = this;
         switch (eventName) {
             case "select":
                 {
                     this.parentEl.addEventListener("click", (event) => {
                         console.log(`event.target.nodeName=${event.target.nodeName}`);
-                        if (event.target.nodeName == 'SPAN') {
+                        if (event.target.nodeName === 'SPAN') {
                             console.log(`event.target.id=${event.target.id}`);
-                            fn(event)
+                            this.handleSelected(event.target.id);
+                            fn(event);
                         }
                     });
                     break;
                 }
         }
+    }
+
+    handleSelected(id) {
+        if (this.selectedId) {
+            var currentSelectedEl = this.parentEl.querySelector(`summary#${this.selectedId}`);
+            if (currentSelectedEl) {
+                this.unsetSelected(currentSelectedEl);
+            }
+        }
+        this.selectedId = id;
+        var selectedEl = this.parentEl.querySelector(`summary#${id}`);
+        this.setSelected(selectedEl);
+    }
+
+    setSelected(el) {
+        el.setAttribute("selected", "true");
+    }
+
+    unsetSelected(el) {
+        el.removeAttribute("selected");
     }
 }

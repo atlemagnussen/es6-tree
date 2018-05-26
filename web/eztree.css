@@ -20,3 +20,7 @@ details details {
 .ez-tree details.leaf > summary::-webkit-details-marker {
     display: none;
 }
+
+summary[selected="true"]{
+    background-color:yellow;
+}

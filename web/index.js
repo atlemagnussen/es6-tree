@@ -39,7 +39,6 @@ class Index {
             {
                 id: "master2",
                 name: "#2",
-                expanded: true,
                 type: "main",
                 children: [{
                         id: "web-easy2",
