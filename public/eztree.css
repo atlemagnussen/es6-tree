@@ -8,7 +8,11 @@ body {
     padding: 2px
 }
 
-details details {
+.ez-tree summary {
+    display: inline-block;
+}
+
+.ez-tree details details {
     margin-left: 1em;
     display: block;
 }
@@ -21,6 +25,6 @@ details details {
     display: none;
 }
 
-summary[selected="true"]{
+span[selected="true"]{
     background-color:yellow;
 }

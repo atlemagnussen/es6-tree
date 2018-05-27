@@ -4,7 +4,7 @@
   "description": "tree view for web with vanilla js",
   "main": "index.js",
   "scripts": {
-    "test": "http-server -p 4000",
+    "test": "http-server -p 4000 -a 127.0.0.1",
     "start": "http-server -p 4000"
   },
   "repository": {

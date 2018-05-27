@@ -58,7 +58,6 @@ export class EzTree {
                     this.parentEl.addEventListener("click", (event) => {
                         console.log(`event.target.nodeName=${event.target.nodeName}`);
                         if (event.target.nodeName === 'SPAN') {
-                            console.log(`event.target.id=${event.target.id}`);
                             this.handleSelected(event.target.id);
                             fn(event);
                         }
@@ -70,13 +69,13 @@ export class EzTree {
 
     handleSelected(id) {
         if (this.selectedId) {
-            var currentSelectedEl = this.parentEl.querySelector(`summary#${this.selectedId}`);
+            var currentSelectedEl = this.parentEl.querySelector(`span#${this.selectedId}`);
             if (currentSelectedEl) {
                 this.unsetSelected(currentSelectedEl);
             }
         }
         this.selectedId = id;
-        var selectedEl = this.parentEl.querySelector(`summary#${id}`);
+        var selectedEl = this.parentEl.querySelector(`span#${id}`);
         this.setSelected(selectedEl);
     }
 
