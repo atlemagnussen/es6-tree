@@ -63,12 +63,22 @@ class Index {
                     css: "icon icon-file"
                 }
             }
-        }
+        };
 
-        this.tree = new EzTree('eztree', config, data)
-        this.tree.on('select', e => {
+        this.tree = new EzTree('eztree', config, data);
+        this.tree.on('select', () => {
             console.log("from index.js");
-        })
+        });
+
+        let btnJs = document.getElementById("click-js");
+        btnJs.addEventListener("click", () => {
+            this.tree.select("js-beginners");
+        });
+
+        let btnHtml = document.getElementById("click-html");
+        btnHtml.addEventListener("click", () => {
+            this.tree.select("web-easy2");
+        });
     }
 }
 

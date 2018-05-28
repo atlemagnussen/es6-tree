@@ -4,8 +4,8 @@
   "description": "tree view for web with vanilla js",
   "main": "index.js",
   "scripts": {
-    "test": "http-server -p 4000 -a 127.0.0.1",
-    "start": "http-server -p 4000"
+    "test": "cd public && python -m http.server 3000 --bind 127.0.0.1",
+    "start": "cd public && python -m http.server 4000 --bind 127.0.0.1"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/atlemagnussen/ez-tree/issues"
   },
-  "homepage": "https://github.com/atlemagnussen/ez-tree#readme",
-  "devDependencies": {
-    "http-server": "^0.11.1"
-  }
+  "homepage": "https://github.com/atlemagnussen/ez-tree#readme"
 }

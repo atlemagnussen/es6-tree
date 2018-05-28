@@ -36,7 +36,8 @@ class Treeview {
             var target = document.querySelector(this.treeviewId);
             target.innerHTML = this.walkData(data);
         }
-    };
+    }
+
     walkData(data) {
         var me = this;
         var buf = Object.keys(data).map((key) => `
@@ -48,21 +49,24 @@ class Treeview {
             ${data[key].children?me.walkData(data[key].children):""}</details>
         `);
         return buf.join("\n")
-    };
+    }
+
     open(id) {
         var node = document.getElementById(id);
-        while (node.parentNode.nodeName == "DETAILS") {
+        while (node.parentNode.nodeName === "DETAILS") {
             node = node.parentNode;
             node.setAttribute("open", "true");
         }
-    };
+    }
+
     close(id) {
         var node = document.getElementById(id).parentNode;
         node.removeAttribute("open");
         var detailNodes = node.querySelectorAll("DETAILS");
         console.log(detailNodes);
         detailNodes.forEach((node) => node.removeAttribute("open"));
-    };
+    }
+    
     select(id) {
         this.open(id);
         document.getElementById(id).focus();

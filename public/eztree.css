@@ -25,6 +25,14 @@ body {
     display: none;
 }
 
-span[selected="true"]{
-    background-color:yellow;
+.ez-tree span[selected="true"]{
+    background-color: #C0e0ff;
+}
+
+.ez-tree summary {
+    cursor: pointer;
+}
+
+.ez-tree summary:hover {
+    background-color: #C0e0ff;
 }

@@ -9,6 +9,7 @@ export class EzTree {
         this.parentEl.classList.add("ez-tree");
         this.config = config;
         this.data = data;
+        this.on("select", (e) => { this.handleSelect(e.target.id); });
         this.append(this.parentEl, this.data);
     }
 
@@ -56,9 +57,7 @@ export class EzTree {
             case "select":
                 {
                     this.parentEl.addEventListener("click", (event) => {
-                        console.log(`event.target.nodeName=${event.target.nodeName}`);
                         if (event.target.nodeName === 'SPAN') {
-                            this.handleSelected(event.target.id);
                             fn(event);
                         }
                     });
@@ -67,8 +66,24 @@ export class EzTree {
         }
     }
 
-    handleSelected(id) {
+    select(id) {
+        this.handleSelect(id);
+        this.open(id);
+    }
+
+    open(id) {
+        var node = document.getElementById(id);
+        while (node.parentNode.nodeName === "DETAILS") {
+            node = node.parentNode;
+            node.setAttribute("open", "");
+        }
+    }
+
+    handleSelect(id) {
         if (this.selectedId) {
+            if (this.selectedId === id) {
+                return;
+            }
             var currentSelectedEl = this.parentEl.querySelector(`span#${this.selectedId}`);
             if (currentSelectedEl) {
                 this.unsetSelected(currentSelectedEl);
