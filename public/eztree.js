@@ -48,6 +48,8 @@ export class EzTree {
         } else {
             if (node.children) {
                 el.classList.add("icon", "icon-file-directory");
+            } else {
+                el.classList.add("icon", "icon-file");
             }
         }
     }
