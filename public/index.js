@@ -68,6 +68,8 @@ class Index {
         this.tree = new EzTree('eztree', config, data);
         this.tree.on('select', () => {
             console.log("from index.js");
+            var test = document.getElementById("theview");
+            test.innerHTML = "halloo";
         });
 
         let btnJs = document.getElementById("click-js");

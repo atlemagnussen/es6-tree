@@ -21,9 +21,13 @@ export class EzTree {
             }
             p.appendChild(d);
             var s = document.createElement('summary');
-            s.id = n.id;
+            if (n.id) {
+                s.id = n.id;
+            }
             var span = document.createElement('span');
-            span.id = n.id;
+            if (n.id) {
+                span.id = n.id;
+            }
             span.innerText = n.name;
             s.appendChild(span);
             this.handleType(n, span);
@@ -82,6 +86,9 @@ export class EzTree {
     }
 
     handleSelect(id) {
+        if(!id) {
+            return;
+        }
         if (this.selectedId) {
             if (this.selectedId === id) {
                 return;
