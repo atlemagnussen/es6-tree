@@ -172,3 +172,7 @@ var physicians = {
 var treeview = new Treeview(".treeview","http://www.example.com/path/to/images/")
 treeview.replaceData(patients);
 setTimeout(()=>treeview.appendData(physicians,"categories"),3000);
+treeview.on("select", () => {
+    document.dispatchEvent(new CustomEvent('blogIdChanged', { detail: { id: 124456 }}));
+    console.log("test shit");
+});

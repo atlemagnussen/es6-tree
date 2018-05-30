@@ -11,13 +11,13 @@ class Treeview {
                 {
                     document.querySelector(this.treeviewId).addEventListener("click", (event) => {
                         if (event.target.nodeName == 'SUMMARY') {
-                            if (me.selected != null) {
-                                document.getElementById(me.selected).removeAttribute("selected");
-                            }
-                            document.getElementById(event.target.id).setAttribute("selected", "true");
+                            // if (me.selected != null) {
+                            //     document.getElementById(me.selected).removeAttribute("selected");
+                            // }
+                            // document.getElementById(event.target.id).setAttribute("selected", "true");
                             console.log(event.target.id);
                             me.selected = event.target.id;
-                            event.target.setAttribute("open", !event.target.parentNode.hasAttribute("open"));
+                            // event.target.setAttribute("open", !event.target.parentNode.hasAttribute("open"));
                             fn(event)
                         }
                     });
@@ -52,24 +52,24 @@ class Treeview {
     }
 
     open(id) {
-        var node = document.getElementById(id);
-        while (node.parentNode.nodeName === "DETAILS") {
-            node = node.parentNode;
-            node.setAttribute("open", "true");
-        }
+        // var node = document.getElementById(id);
+        // while (node.parentNode.nodeName === "DETAILS") {
+        //     node = node.parentNode;
+        //     node.setAttribute("open", "true");
+        // }
     }
 
     close(id) {
-        var node = document.getElementById(id).parentNode;
-        node.removeAttribute("open");
-        var detailNodes = node.querySelectorAll("DETAILS");
-        console.log(detailNodes);
-        detailNodes.forEach((node) => node.removeAttribute("open"));
+        // var node = document.getElementById(id).parentNode;
+        // node.removeAttribute("open");
+        // var detailNodes = node.querySelectorAll("DETAILS");
+        // console.log(detailNodes);
+        // detailNodes.forEach((node) => node.removeAttribute("open"));
     }
-    
+
     select(id) {
         this.open(id);
-        document.getElementById(id).focus();
-        document.getElementById(id).click();
+        // document.getElementById(id).focus();
+        // document.getElementById(id).click();
     }
 }
