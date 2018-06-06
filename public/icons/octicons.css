@@ -11,9 +11,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e900";
 }
 .icon-type-boolean::before {
@@ -24,9 +21,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e901";
 }
 .icon-type-class::before {
@@ -37,9 +31,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e902";
 }
 .icon-type-constant::before {
@@ -50,9 +41,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e903";
 }
 .icon-type-constructor::before {
@@ -63,9 +51,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e904";
 }
 .icon-type-enum::before {
@@ -76,9 +61,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e905";
 }
 .icon-type-field::before {
@@ -89,9 +71,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e906";
 }
 .icon-type-file::before {
@@ -102,9 +81,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e907";
 }
 .icon-type-function::before {
@@ -115,9 +91,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e908";
 }
 .icon-type-interface::before {
@@ -128,9 +101,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e909";
 }
 .icon-type-method::before {
@@ -141,9 +111,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e90a";
 }
 .icon-type-module::before {
@@ -154,9 +121,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e90b";
 }
 .icon-type-namespace::before {
@@ -167,9 +131,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e90c";
 }
 .icon-type-number::before {
@@ -180,9 +141,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e90d";
 }
 .icon-type-package::before {
@@ -193,9 +151,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e90e";
 }
 .icon-type-property::before {
@@ -206,9 +161,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e90f";
 }
 .icon-type-string::before {
@@ -219,9 +171,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e910";
 }
 .icon-type-variable::before {
@@ -232,9 +181,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\e911";
 }
 .icon-alert::before {
@@ -245,9 +191,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02d";
 }
 .icon-alignment-align::before {
@@ -258,9 +201,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f08a";
 }
 .icon-alignment-aligned-to::before {
@@ -271,9 +211,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f08e";
 }
 .icon-alignment-unalign::before {
@@ -284,9 +221,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f08b";
 }
 .icon-arrow-down::before {
@@ -297,9 +231,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f03f";
 }
 .icon-arrow-left::before {
@@ -310,9 +241,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f040";
 }
 .icon-arrow-right::before {
@@ -323,9 +251,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f03e";
 }
 .icon-arrow-small-down::before {
@@ -336,9 +261,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a0";
 }
 .icon-arrow-small-left::before {
@@ -349,9 +271,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a1";
 }
 .icon-arrow-small-right::before {
@@ -362,9 +281,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f071";
 }
 .icon-arrow-small-up::before {
@@ -375,9 +291,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f09f";
 }
 .icon-arrow-up::before {
@@ -388,9 +301,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f03d";
 }
 .icon-beaker::before {
@@ -401,9 +311,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0dd";
 }
 .icon-beer::before {
@@ -414,9 +321,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f069";
 }
 .icon-bell::before {
@@ -427,9 +331,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0de";
 }
 .icon-bold::before {
@@ -440,9 +341,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0e2";
 }
 .icon-book::before {
@@ -453,9 +351,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f007";
 }
 .icon-bookmark::before {
@@ -466,9 +361,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f07b";
 }
 .icon-briefcase::before {
@@ -479,9 +371,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0d3";
 }
 .icon-broadcast::before {
@@ -492,9 +381,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f048";
 }
 .icon-browser::before {
@@ -505,9 +391,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0c5";
 }
 .icon-bug::before {
@@ -518,9 +401,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f091";
 }
 .icon-calendar::before {
@@ -531,9 +411,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f068";
 }
 .icon-check::before {
@@ -544,9 +421,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f03a";
 }
 .icon-checklist::before {
@@ -557,9 +431,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f076";
 }
 .icon-chevron-down::before {
@@ -570,9 +441,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a3";
 }
 .icon-chevron-left::before {
@@ -583,9 +451,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a4";
 }
 .icon-chevron-right::before {
@@ -596,9 +461,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f078";
 }
 .icon-chevron-up::before {
@@ -609,9 +471,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a2";
 }
 .icon-circle-slash::before {
@@ -622,9 +481,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f084";
 }
 .icon-circuit-board::before {
@@ -635,9 +491,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0d6";
 }
 .icon-clippy::before {
@@ -648,9 +501,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f035";
 }
 .icon-clock::before {
@@ -661,9 +511,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f046";
 }
 .icon-cloud-download::before {
@@ -674,9 +521,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f00b";
 }
 .icon-cloud-upload::before {
@@ -687,9 +531,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f00c";
 }
 .icon-code::before {
@@ -700,9 +541,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05f";
 }
 .icon-color-mode::before {
@@ -713,9 +551,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f065";
 }
 .icon-comment::before {
@@ -726,9 +561,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02b";
 }
 .icon-comment-add::before {
@@ -739,9 +571,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02b";
 }
 .icon-comment-discussion::before {
@@ -752,9 +581,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f04f";
 }
 .icon-credit-card::before {
@@ -765,9 +591,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f045";
 }
 .icon-dash::before {
@@ -778,9 +601,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0ca";
 }
 .icon-dashboard::before {
@@ -791,9 +611,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f07d";
 }
 .icon-database::before {
@@ -804,9 +621,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f096";
 }
 .icon-desktop-download::before {
@@ -817,9 +631,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0dc";
 }
 .icon-device-camera::before {
@@ -830,9 +641,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f056";
 }
 .icon-device-camera-video::before {
@@ -843,9 +651,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f057";
 }
 .icon-device-desktop::before {
@@ -856,9 +661,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f27c";
 }
 .icon-device-mobile::before {
@@ -869,9 +671,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f038";
 }
 .icon-diff::before {
@@ -882,9 +681,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f04d";
 }
 .icon-diff-added::before {
@@ -895,9 +691,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f06b";
 }
 .icon-diff-ignored::before {
@@ -908,9 +701,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f099";
 }
 .icon-diff-modified::before {
@@ -921,9 +711,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f06d";
 }
 .icon-diff-removed::before {
@@ -934,9 +721,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f06c";
 }
 .icon-diff-renamed::before {
@@ -947,9 +731,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f06e";
 }
 .icon-ellipses::before {
@@ -960,9 +741,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f101";
 }
 .icon-ellipsis::before {
@@ -973,9 +751,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f09a";
 }
 .icon-eye::before {
@@ -986,9 +761,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f04e";
 }
 .icon-eye-unwatch::before {
@@ -999,9 +771,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f04e";
 }
 .icon-eye-watch::before {
@@ -1012,9 +781,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f04e";
 }
 .icon-file::before {
@@ -1025,9 +791,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f102";
 }
 .icon-file-add::before {
@@ -1038,9 +801,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05d";
 }
 .icon-file-binary::before {
@@ -1051,9 +811,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f094";
 }
 .icon-file-code::before {
@@ -1064,9 +821,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f010";
 }
 .icon-file-directory::before {
@@ -1077,9 +831,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f016";
 }
 .icon-file-directory-create::before {
@@ -1090,9 +841,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05d";
 }
 .icon-file-media::before {
@@ -1103,9 +851,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f012";
 }
 .icon-file-pdf::before {
@@ -1116,9 +861,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f014";
 }
 .icon-file-submodule::before {
@@ -1129,9 +871,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f017";
 }
 .icon-file-symlink-directory::before {
@@ -1142,9 +881,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0b1";
 }
 .icon-file-symlink-file::before {
@@ -1155,9 +891,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0b0";
 }
 .icon-file-text::before {
@@ -1168,9 +901,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f011";
 }
 .icon-file-zip::before {
@@ -1181,9 +911,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f013";
 }
 .icon-flame::before {
@@ -1194,9 +921,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0d2";
 }
 .icon-fold::before {
@@ -1207,9 +931,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0cc";
 }
 .icon-gear::before {
@@ -1220,9 +941,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02f";
 }
 .icon-gift::before {
@@ -1233,9 +951,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f042";
 }
 .icon-gist::before {
@@ -1246,9 +961,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f00e";
 }
 .icon-gist-fork::before {
@@ -1259,9 +971,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f002";
 }
 .icon-gist-new::before {
@@ -1272,9 +981,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05d";
 }
 .icon-gist-private::before {
@@ -1285,9 +991,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f06a";
 }
 .icon-gist-secret::before {
@@ -1298,9 +1001,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f08c";
 }
 .icon-git-branch::before {
@@ -1311,9 +1011,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f020";
 }
 .icon-git-branch-create::before {
@@ -1324,9 +1021,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f020";
 }
 .icon-git-branch-delete::before {
@@ -1337,9 +1031,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f020";
 }
 .icon-git-commit::before {
@@ -1350,9 +1041,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f01f";
 }
 .icon-git-compare::before {
@@ -1363,9 +1051,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0ac";
 }
 .icon-git-fork-private::before {
@@ -1376,9 +1061,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f06a";
 }
 .icon-git-merge::before {
@@ -1389,9 +1071,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f023";
 }
 .icon-git-pull-request::before {
@@ -1402,9 +1081,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f009";
 }
 .icon-git-pull-request-abandoned::before {
@@ -1415,9 +1091,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f009";
 }
 .icon-globe::before {
@@ -1428,9 +1101,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0b6";
 }
 .icon-grabber::before {
@@ -1441,9 +1111,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f103";
 }
 .icon-graph::before {
@@ -1454,9 +1121,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f043";
 }
 .icon-heart::before {
@@ -1467,9 +1131,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\2665";
 }
 .icon-history::before {
@@ -1480,9 +1141,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f07e";
 }
 .icon-home::before {
@@ -1493,9 +1151,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f08d";
 }
 .icon-horizontal-rule::before {
@@ -1506,9 +1161,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f070";
 }
 .icon-hourglass::before {
@@ -1519,9 +1171,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f09e";
 }
 .icon-hubot::before {
@@ -1532,9 +1181,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f09d";
 }
 .icon-inbox::before {
@@ -1545,9 +1191,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0cf";
 }
 .icon-info::before {
@@ -1558,9 +1201,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f059";
 }
 .icon-issue-closed::before {
@@ -1571,9 +1211,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f028";
 }
 .icon-issue-opened::before {
@@ -1584,9 +1221,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f026";
 }
 .icon-issue-reopened::before {
@@ -1597,9 +1231,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f027";
 }
 .icon-italic::before {
@@ -1610,9 +1241,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0e4";
 }
 .icon-jersey::before {
@@ -1623,9 +1251,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f019";
 }
 .icon-jump-down::before {
@@ -1636,9 +1261,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f072";
 }
 .icon-jump-left::before {
@@ -1649,9 +1271,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a5";
 }
 .icon-jump-right::before {
@@ -1662,9 +1281,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a6";
 }
 .icon-jump-up::before {
@@ -1675,9 +1291,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f073";
 }
 .icon-key::before {
@@ -1688,9 +1301,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f049";
 }
 .icon-keyboard::before {
@@ -1701,9 +1311,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f00d";
 }
 .icon-law::before {
@@ -1714,9 +1321,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0d8";
 }
 .icon-light-bulb::before {
@@ -1727,9 +1331,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f000";
 }
 .icon-link::before {
@@ -1740,9 +1341,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05c";
 }
 .icon-link-external::before {
@@ -1753,9 +1351,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f07f";
 }
 .icon-list-ordered::before {
@@ -1766,9 +1361,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f062";
 }
 .icon-list-unordered::before {
@@ -1779,9 +1371,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f061";
 }
 .icon-location::before {
@@ -1792,9 +1381,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f060";
 }
 .icon-lock::before {
@@ -1805,9 +1391,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f06a";
 }
 .icon-log-in::before {
@@ -1818,9 +1401,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f036";
 }
 .icon-log-out::before {
@@ -1831,9 +1411,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f032";
 }
 .icon-logo-gist::before {
@@ -1844,9 +1421,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0ad";
 }
 .icon-logo-github::before {
@@ -1857,9 +1431,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f092";
 }
 .icon-mail::before {
@@ -1870,9 +1441,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f03b";
 }
 .icon-mail-read::before {
@@ -1883,9 +1451,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f03c";
 }
 .icon-mail-reply::before {
@@ -1896,9 +1461,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f051";
 }
 .icon-mark-github::before {
@@ -1909,9 +1471,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f00a";
 }
 .icon-markdown::before {
@@ -1922,9 +1481,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0c9";
 }
 .icon-megaphone::before {
@@ -1935,9 +1491,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f077";
 }
 .icon-mention::before {
@@ -1948,9 +1501,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0be";
 }
 .icon-microscope::before {
@@ -1961,9 +1511,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f089";
 }
 .icon-milestone::before {
@@ -1974,9 +1521,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f075";
 }
 .icon-mirror::before {
@@ -1987,9 +1531,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f024";
 }
 .icon-mirror-private::before {
@@ -2000,9 +1541,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f06a";
 }
 .icon-mirror-public::before {
@@ -2013,9 +1551,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f024";
 }
 .icon-mortar-board::before {
@@ -2026,9 +1561,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0d7";
 }
 .icon-move-down::before {
@@ -2039,9 +1571,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a8";
 }
 .icon-move-left::before {
@@ -2052,9 +1581,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f074";
 }
 .icon-move-right::before {
@@ -2065,9 +1591,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a9";
 }
 .icon-move-up::before {
@@ -2078,9 +1601,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0a7";
 }
 .icon-mute::before {
@@ -2091,9 +1611,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f080";
 }
 .icon-no-newline::before {
@@ -2104,9 +1621,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f09c";
 }
 .icon-octoface::before {
@@ -2117,9 +1631,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f008";
 }
 .icon-organization::before {
@@ -2130,9 +1641,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f037";
 }
 .icon-package::before {
@@ -2143,9 +1651,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0c4";
 }
 .icon-paintcan::before {
@@ -2156,9 +1661,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0d1";
 }
 .icon-pencil::before {
@@ -2169,9 +1671,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f058";
 }
 .icon-person::before {
@@ -2182,9 +1681,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f018";
 }
 .icon-person-add::before {
@@ -2195,9 +1691,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f018";
 }
 .icon-person-follow::before {
@@ -2208,9 +1701,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f018";
 }
 .icon-pin::before {
@@ -2221,9 +1711,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f041";
 }
 .icon-playback-fast-forward::before {
@@ -2234,9 +1721,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0bd";
 }
 .icon-playback-pause::before {
@@ -2247,9 +1731,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0bb";
 }
 .icon-playback-play::before {
@@ -2260,9 +1741,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0bf";
 }
 .icon-playback-rewind::before {
@@ -2273,9 +1751,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0bc";
 }
 .icon-plug::before {
@@ -2286,9 +1761,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0d4";
 }
 .icon-plus::before {
@@ -2299,9 +1771,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05d";
 }
 .icon-plus-small::before {
@@ -2312,9 +1781,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f104";
 }
 .icon-podium::before {
@@ -2325,9 +1791,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0af";
 }
 .icon-primitive-dot::before {
@@ -2338,9 +1801,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f052";
 }
 .icon-primitive-square::before {
@@ -2351,9 +1811,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f053";
 }
 .icon-pulse::before {
@@ -2364,9 +1821,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f085";
 }
 .icon-puzzle::before {
@@ -2377,9 +1831,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0c0";
 }
 .icon-question::before {
@@ -2390,9 +1841,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02c";
 }
 .icon-quote::before {
@@ -2403,9 +1851,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f063";
 }
 .icon-radio-tower::before {
@@ -2416,9 +1861,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f030";
 }
 .icon-remove-close::before {
@@ -2429,9 +1871,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f081";
 }
 .icon-reply::before {
@@ -2442,9 +1881,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f105";
 }
 .icon-repo::before {
@@ -2455,9 +1891,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f001";
 }
 .icon-repo-clone::before {
@@ -2468,9 +1901,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f04c";
 }
 .icon-repo-create::before {
@@ -2481,9 +1911,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05d";
 }
 .icon-repo-delete::before {
@@ -2494,9 +1921,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f001";
 }
 .icon-repo-force-push::before {
@@ -2507,9 +1931,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f04a";
 }
 .icon-repo-forked::before {
@@ -2520,9 +1941,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f002";
 }
 .icon-repo-pull::before {
@@ -2533,9 +1951,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f006";
 }
 .icon-repo-push::before {
@@ -2546,9 +1961,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f005";
 }
 .icon-repo-sync::before {
@@ -2559,9 +1971,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f087";
 }
 .icon-rocket::before {
@@ -2572,9 +1981,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f033";
 }
 .icon-rss::before {
@@ -2585,9 +1991,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f034";
 }
 .icon-ruby::before {
@@ -2598,9 +2001,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f047";
 }
 .icon-screen-full::before {
@@ -2611,9 +2011,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f066";
 }
 .icon-screen-normal::before {
@@ -2624,9 +2021,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f067";
 }
 .icon-search::before {
@@ -2637,9 +2031,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02e";
 }
 .icon-search-save::before {
@@ -2650,9 +2041,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02e";
 }
 .icon-server::before {
@@ -2663,9 +2051,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f097";
 }
 .icon-settings::before {
@@ -2676,9 +2061,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f07c";
 }
 .icon-shield::before {
@@ -2689,9 +2071,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0e1";
 }
 .icon-sign-in::before {
@@ -2702,9 +2081,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f036";
 }
 .icon-sign-out::before {
@@ -2715,9 +2091,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f032";
 }
 .icon-smiley::before {
@@ -2728,9 +2101,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0e7";
 }
 .icon-split::before {
@@ -2741,9 +2111,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0c6";
 }
 .icon-squirrel::before {
@@ -2754,9 +2121,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0b2";
 }
 .icon-star::before {
@@ -2767,9 +2131,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02a";
 }
 .icon-star-add::before {
@@ -2780,9 +2141,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02a";
 }
 .icon-star-delete::before {
@@ -2793,9 +2151,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f02a";
 }
 .icon-steps::before {
@@ -2806,9 +2161,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0c7";
 }
 .icon-stop::before {
@@ -2819,9 +2171,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f08f";
 }
 .icon-sync::before {
@@ -2832,9 +2181,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f087";
 }
 .icon-tag::before {
@@ -2845,9 +2191,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f015";
 }
 .icon-tag-add::before {
@@ -2858,9 +2201,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f015";
 }
 .icon-tag-remove::before {
@@ -2871,9 +2211,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f015";
 }
 .icon-tasklist::before {
@@ -2884,9 +2221,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0e5";
 }
 .icon-telescope::before {
@@ -2897,9 +2231,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f088";
 }
 .icon-terminal::before {
@@ -2910,9 +2241,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0c8";
 }
 .icon-text-size::before {
@@ -2923,9 +2251,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0e3";
 }
 .icon-three-bars::before {
@@ -2936,9 +2261,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05e";
 }
 .icon-thumbsdown::before {
@@ -2949,9 +2271,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0db";
 }
 .icon-thumbsup::before {
@@ -2962,9 +2281,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0da";
 }
 .icon-tools::before {
@@ -2975,9 +2291,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f031";
 }
 .icon-trashcan::before {
@@ -2988,9 +2301,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0d0";
 }
 .icon-triangle-down::before {
@@ -3001,9 +2311,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05b";
 }
 .icon-triangle-left::before {
@@ -3014,9 +2321,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f044";
 }
 .icon-triangle-right::before {
@@ -3027,9 +2331,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f05a";
 }
 .icon-triangle-up::before {
@@ -3040,9 +2341,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0aa";
 }
 .icon-unfold::before {
@@ -3053,9 +2351,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f039";
 }
 .icon-unmute::before {
@@ -3066,9 +2361,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0ba";
 }
 .icon-unverified::before {
@@ -3079,9 +2371,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0e8";
 }
 .icon-verified::before {
@@ -3092,9 +2381,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0e6";
 }
 .icon-versions::before {
@@ -3105,9 +2391,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f064";
 }
 .icon-watch::before {
@@ -3118,9 +2401,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f0e0";
 }
 .icon-x::before {
@@ -3131,9 +2411,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\f081";
 }
 .icon-zap::before {
@@ -3144,8 +2421,5 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
   content: "\26A1";
 }
