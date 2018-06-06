@@ -24,7 +24,9 @@ body {
 .ez-tree details.leaf > summary::-webkit-details-marker {
     display: none;
 }
-
+.ez-tree .node-text::before {
+    margin-right: 0.5rem;
+}
 .ez-tree span[selected="true"]{
     background-color: #C0e0ff;
 }

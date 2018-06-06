@@ -29,6 +29,7 @@ export class EzTree {
                 span.id = n.id;
             }
             span.innerText = n.name;
+            span.classList.add("node-text");
             s.appendChild(span);
             this.handleType(n, span);
             d.appendChild(s);
