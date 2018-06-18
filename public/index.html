@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ez-tree</title>
     <link rel="stylesheet" href="/eztree.css">
+    <link rel="stylesheet" href="/ezcrumb.css">
     <link rel="stylesheet" href="/icons/octicons.css">
 </head>
 
@@ -16,51 +17,6 @@
         import idx from './index.js';
     </script>
 
-    <p>Test with ol-li</p>
-    <div id="tree">
-        <ol class="list-tree">
-            <li>
-                <div class="header list-item icon-chevron-right">
-                    <span class="icon icon-file-directory">Web</span>
-                </div>
-            </li>
-            <li>
-                <div class="header list-item icon-chevron-right">
-                    <span class="icon icon-file-directory">public</span>
-                </div>
-            </li>
-        </ol>
-    </div>
-    <p>Mock up details summary</p>
-    <div class="treeview-test">
-        <details>
-            <summary id="root">Root</summary>
-            <details>
-                <summary id="item-1">Item 1</summary>
-                <details>
-                    <summary id="item-1-1">Item 1.1</summary>
-                    <details>
-                        <summary id="item-1-2">Item 1.2</summary>
-                        <details>
-                            <summary id="item-1-2-1">Item 1.2.1</summary>
-                        </details>
-                    </details>
-                </details>
-            </details>
-            <details>
-                <summary id="item-2">Item 2</summary>
-                <details>
-                    <summary id="item-2-1">Item 2.1</summary>
-                </details>
-                <details>
-                    <summary id="item-2-2">Item 2.2</summary>
-                    <details>
-                        <summary id="item-2-2-1">Item 2-2-1</summary>
-                    </details>
-                </details>
-            </details>
-        </details>
-    </div>
     <p>Js implementation of summary details</p>
     <div id="eztree">
     </div>
@@ -71,6 +27,10 @@
         Other treeview test: <a href="treeview.html">treeview</a>
     </p>
 
+    <p>Js implementation of the bread crumb with same config as tree</p>
+    <div id="ezcrumb">
+
+    </div>
     <div id="theview">
 
     </div>

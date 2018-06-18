@@ -1,0 +1,10 @@
+.ez-crumb .crumb-item {
+    padding-left: 10px;
+    cursor: pointer;
+}
+.ez-crumb .crumb-item::before {
+    margin-right: 0.5rem;
+}
+.ez-crumb .crumb-item .item-text:hover {
+    color: #C0e0ff;
+}

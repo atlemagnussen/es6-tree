@@ -1,7 +1,5 @@
-import {
-    EzTree
-} from './eztree.js';
-
+import EzTree from './eztree.js';
+import EzCrumb from './ezcrumb.js';
 
 class Index {
     constructor() {
@@ -35,22 +33,6 @@ class Index {
                         type: "folder"
                     }
                 ]
-            },
-            {
-                id: "master2",
-                name: "#2",
-                type: "main",
-                children: [{
-                        id: "web-easy2",
-                        name: "Web Easy2",
-                        type: "file"
-                    },
-                    {
-                        id: "web-medium2",
-                        name: "Web Medium2",
-                        type: "file"
-                    }
-                ]
             }
         ];
 
@@ -71,6 +53,9 @@ class Index {
             var test = document.getElementById("theview");
             test.innerHTML = "halloo";
         });
+
+        this.crumb = new EzCrumb('ezcrumb', data);
+        let test = this.crumb.select('js-beginners');
 
         let btnJs = document.getElementById("click-js");
         btnJs.addEventListener("click", () => {
