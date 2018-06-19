@@ -55,7 +55,7 @@ class Index {
         });
 
         this.crumb = new EzCrumb('ezcrumb', data);
-        let test = this.crumb.select('js-beginners');
+        this.test = this.crumb.select('js-beginners');
 
         let btnJs = document.getElementById("click-js");
         btnJs.addEventListener("click", () => {

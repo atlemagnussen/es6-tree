@@ -33,9 +33,9 @@ export default class EzCrumb {
 
     select(id) {
         let tree = this.find(this.data[0], id);
+        this.parentEl.innerHTML = "";
+        this.appendRoot();
         if (tree && Array.isArray(tree)) {
-            this.parentEl.innerHTML = "";
-            this.appendRoot();
             for(let i = 0; i<tree.length; i++) {
                 let itemData = tree[i];
                 let item = this.createItem(itemData.id, itemData.name);
