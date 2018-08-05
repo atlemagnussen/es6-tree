@@ -105,7 +105,8 @@ export default class EzTree {
     }
 
     setSelected(el) {
-        el.setAttribute("selected", "true");
+        if (el)
+            el.setAttribute("selected", "true");
     }
 
     unsetSelected(el) {
