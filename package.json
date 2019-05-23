@@ -1,11 +1,10 @@
 {
   "name": "ez-tree",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "tree view for web with vanilla js",
   "main": "index.js",
   "scripts": {
-    "test": "cd public && python -m http.server 3000 --bind 127.0.0.1",
-    "start": "cd public && python -m http.server 4000 --bind 127.0.0.1"
+    "start": "cd public && static-server"
   },
   "repository": {
     "type": "git",

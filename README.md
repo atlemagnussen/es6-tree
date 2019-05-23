@@ -2,4 +2,4 @@
 tree view for web with vanilla js, eventually
 
 ## Dev dependencies
-- Python 3
+- none really
