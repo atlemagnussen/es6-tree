@@ -1,4 +1,4 @@
-import EsTree from './es6tree.min.js';
+import EsTree from './es6tree.js';
 import config from './config-example.js';
 import data from './data-example.js';
 
