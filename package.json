@@ -1,6 +1,6 @@
 {
   "name": "es6-tree",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "tree view for web with vanilla js",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/atlemagnussen/es6-tree/issues"
   },
-  "homepage": "https://github.com/atlemagnussen/es6-tree#readme"
+  "homepage": "https://github.com/atlemagnussen/es6-tree#readme",
+  "devDependencies": {
+    "uglify-es": "^3.3.9",
+    "uglifycss": "0.0.29"
+  }
 }
