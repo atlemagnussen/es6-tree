@@ -1,5 +1,55 @@
-# Ez-tree
-tree view for web with vanilla js, eventually
+# Es-tree
+tree view for web with vanilla js  
+Using [Octicons](https://octicons.github.com/) from Github
 
-## Dev dependencies
+## Dependencies
 - none really
+- use [static-server](https://www.npmjs.com/package/static-server) from `public` folder to test
+
+## Usage
+```html
+<div id="tree-div"></div>
+```
+```js
+const tree = new EzTree('tree-div', config, data);
+```
+
+### Config
+```js
+const config = {
+    types: {
+        folder: {
+            css: "icon icon-file-directory"
+        },
+        file: {
+            css: "icon icon-file"
+        }
+    }
+};
+```
+### Data
+```js
+const data = [{
+    id: "master-node",
+    name: "#",
+    type: "main",
+    expanded: true,
+    children: [{
+            id: "folder-1",
+            expanded: true,
+            type: "folder",
+            name: "A folder",
+            children: [{
+                    id: "article-1",
+                    name: "An article",
+                    type: "file"
+                },
+                {
+                    id: "article-2",
+                    name: "Another article",
+                    type: "file"
+                }
+            ]
+        }]
+}];
+```

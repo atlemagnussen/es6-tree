@@ -1,6 +1,6 @@
 {
-  "name": "ez-tree",
-  "version": "0.1.0",
+  "name": "es6-tree",
+  "version": "0.2.0",
   "description": "tree view for web with vanilla js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atlemagnussen/ez-tree.git"
+    "url": "git+https://github.com/atlemagnussen/es6-tree.git"
   },
   "keywords": [
     "web",
@@ -20,7 +20,7 @@
   "author": "Atle Magnussen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atlemagnussen/ez-tree/issues"
+    "url": "https://github.com/atlemagnussen/es6-tree/issues"
   },
-  "homepage": "https://github.com/atlemagnussen/ez-tree#readme"
+  "homepage": "https://github.com/atlemagnussen/es6-tree#readme"
 }

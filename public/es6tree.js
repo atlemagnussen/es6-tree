@@ -6,7 +6,7 @@ export default class EzTree {
         if (!this.parentEl) {
             throw new Error(`Can't find element with id ${parentId}`);
         }
-        this.parentEl.classList.add("ez-tree");
+        this.parentEl.classList.add("es6-tree");
         this.config = config;
         this.data = data;
         this.on("select", (e) => { this.handleSelect(e.target.id); });

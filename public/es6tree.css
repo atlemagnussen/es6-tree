@@ -1,0 +1,34 @@
+.es6-tree details{
+    padding: 2px
+}
+
+.es6-tree summary {
+    display: inline-block;
+}
+
+.es6-tree details details {
+    margin-left: 1em;
+    display: block;
+}
+
+.es6-tree details.leaf > summary {
+    list-style: none;
+}
+
+.es6-tree details.leaf > summary::-webkit-details-marker {
+    display: none;
+}
+.es6-tree .node-text::before {
+    margin-right: 0.5rem;
+}
+.es6-tree span[selected="true"]{
+    background-color: #C0e0ff;
+}
+
+.es6-tree summary {
+    cursor: pointer;
+}
+
+.es6-tree summary:hover {
+    background-color: #C0e0ff;
+}
