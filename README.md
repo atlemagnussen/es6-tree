@@ -69,8 +69,8 @@ const data = [{
 ### Events
 #### On select
 ```js
-tree.on("select", (ev) => {
-    console.log(`Node with id ${ev.target.id} selected`);
+tree.on("select", (n) => {
+    console.log(`Node with id ${n.id} and type ${n.type} selected`);
 });
 ```
 

@@ -9,11 +9,11 @@ class Index {
 
         // initialize tree
         this.tree = new EsTree('tree-div', config, data);
-        
+
         // Act on tree node selection
-        this.tree.on("select", (ev) => {
-            if (ev.target.id) {
-                this.view.innerHTML = `<p>Node with id <b>${ev.target.id}</b> selected</p>`;
+        this.tree.on("select", (node) => {
+            if (node.id) {
+                this.view.innerHTML = `<p>Node with id <b>${node.id}</b> and type <b>${node.type}</b> selected</p>`;
             } else {
                 this.view.innerHTML = `<p>Node with with no id selected</p>`;
             }
