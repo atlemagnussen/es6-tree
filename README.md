@@ -1,4 +1,4 @@
-# Es-tree
+# es6-tree
 tree view for web with vanilla ES6 Javascript  
 Using [Octicons](https://octicons.github.com/) from Github
 
@@ -9,7 +9,7 @@ Using [Octicons](https://octicons.github.com/) from Github
 - Select node from outside
 
 ## Dependencies
-- none really
+none
 - use [static-server](https://www.npmjs.com/package/static-server) from `src` folder to test
 
 ## Usage
@@ -49,7 +49,6 @@ const data = [{
     expanded: true,
     children: [{
             id: "folder-1",
-            expanded: true,
             type: "folder",
             name: "A folder",
             children: [{

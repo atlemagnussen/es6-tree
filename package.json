@@ -23,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/atlemagnussen/es6-tree/issues"
   },
-  "homepage": "https://github.com/atlemagnussen/es6-tree#readme",
-  "dependencies": {
-    "uglifycss": "0.0.29"
-  }
+  "homepage": "https://github.com/atlemagnussen/es6-tree#readme"
 }
