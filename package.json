@@ -4,7 +4,8 @@
   "description": "tree view for web with vanilla js",
   "main": "index.js",
   "scripts": {
-    "start": "cd public && static-server"
+    "start": "cd src && static-server",
+    "build": "uglifyjs ./src/es6tree.js --source-map --keep-classnames -o ./dist/es6tree.min.js && uglifycss src/es6tree.css > ./dist/es6tree.min.css"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/atlemagnussen/es6-tree/issues"
   },
-  "homepage": "https://github.com/atlemagnussen/es6-tree#readme"
+  "homepage": "https://github.com/atlemagnussen/es6-tree#readme",
+  "dependencies": {
+    "uglifycss": "0.0.29"
+  }
 }

@@ -1,16 +1,26 @@
 # Es-tree
-tree view for web with vanilla js  
+tree view for web with vanilla ES6 Javascript  
 Using [Octicons](https://octicons.github.com/) from Github
 
-![es6-tree example](https://storage.googleapis.com/atle-static/pics/es6-tree-example.jpg)
+![es6-tree example](https://storage.googleapis.com/atle-static/pics/es6-tree-example.jpg)  
+
+- Override styles easily
+- Select event as node is clicked
+- Select node from outside
 
 ## Dependencies
 - none really
-- use [static-server](https://www.npmjs.com/package/static-server) from `public` folder to test
+- use [static-server](https://www.npmjs.com/package/static-server) from `src` folder to test
 
 ## Usage
 ```html
-<div id="tree-div"></div>
+<head>
+    <link rel="stylesheet" href="/es6tree.css">
+    <link rel="stylesheet" href="/icons/octicons.css">
+</head>
+<body>
+    <div id="tree-div"></div>
+</body>
 ```
 ```js
 import EsTree from './es6tree.js';
@@ -55,4 +65,17 @@ const data = [{
             ]
         }]
 }];
+```
+
+### Events
+#### On select
+```js
+tree.on("select", (ev) => {
+    console.log(`Node with id ${ev.target.id} selected`);
+});
+```
+
+#### Select from outside
+```js
+tree.select("article-2");
 ```
