@@ -1,3 +1,6 @@
+.eslintrc.json
+es6crumb.*
+
 # Logs
 logs
 *.log
