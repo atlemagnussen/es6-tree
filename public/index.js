@@ -1,4 +1,4 @@
-import EzTree from './es6tree.js';
+import EsTree from './es6tree.js';
 import EzCrumb from './es6crumb.js';
 import config from './config-example.js';
 import data from './data-example.js';
@@ -6,7 +6,7 @@ import data from './data-example.js';
 class Index {
     constructor() {
 
-        this.tree = new EzTree('eztree', config, data);
+        this.tree = new EsTree('tree-div', config, data);
         this.tree.on('select', () => {
             console.log("from index.js");
             var test = document.getElementById("theview");

@@ -2,6 +2,8 @@
 tree view for web with vanilla js  
 Using [Octicons](https://octicons.github.com/) from Github
 
+![es6-tree example](https://storage.googleapis.com/atle-static/pics/es6-tree-example.jpg)
+
 ## Dependencies
 - none really
 - use [static-server](https://www.npmjs.com/package/static-server) from `public` folder to test
@@ -11,7 +13,8 @@ Using [Octicons](https://octicons.github.com/) from Github
 <div id="tree-div"></div>
 ```
 ```js
-const tree = new EzTree('tree-div', config, data);
+import EsTree from './es6tree.js';
+const tree = new EsTree('tree-div', config, data);
 ```
 
 ### Config
