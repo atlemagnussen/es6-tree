@@ -6,10 +6,10 @@ export default class EzTree {
         if (!this.parentEl) {
             throw new Error(`Can't find element with id ${parentId}`);
         }
-        this.parentEl.classList.add("es6-tree");
+        this.parentEl.classList.add('es6-tree');
         this.config = config;
         this.data = data;
-        this.on("select", (n) => { this.handleSelect(n.id); });
+        this.on('select', (n) => { this.handleSelect(n.id); });
         this.append(this.parentEl, this.data);
     }
 
@@ -21,22 +21,20 @@ export default class EzTree {
             }
             p.appendChild(d);
             const s = document.createElement('summary');
-            if (n.id) {
-                s.id = n.id;
-            }
             const span = document.createElement('span');
             if (n.id) {
+                s.id = n.id;
                 span.id = n.id;
             }
             span.innerText = n.name;
-            span.classList.add("node-text");
+            span.classList.add('node-text');
             s.appendChild(span);
             this.handleType(n, span);
             d.appendChild(s);
             if (n.children && Array.isArray(n.children)) {
                 this.append(d, n.children);
             } else {
-                d.classList.add("leaf");
+                d.classList.add('leaf');
             }
         });
     }
@@ -51,17 +49,17 @@ export default class EzTree {
                 }
             }
         } else if (node.children) {
-            el.classList.add("icon", "icon-file-directory");
+            el.classList.add('icon', 'icon-file-directory');
         } else {
-            el.classList.add("icon", "icon-file");
+            el.classList.add('icon', 'icon-file');
         }
     }
 
     on(eventName, fn) {
         switch (eventName) {
-        case "select":
+        case 'select':
         {
-            this.parentEl.addEventListener("click", (cev) => {
+            this.parentEl.addEventListener('click', (cev) => {
                 if (cev.target.nodeName === 'SPAN') {
                     const id = cev.target.id;
                     const node = this.findNode(id);
@@ -75,7 +73,7 @@ export default class EzTree {
             break;
         }
         default:
-            console.log("Not supported event");
+            console.error('Not supported event');
         }
     }
 
@@ -86,9 +84,9 @@ export default class EzTree {
 
     open(id) {
         let node = document.getElementById(id);
-        while (node.parentNode.nodeName === "DETAILS") {
+        while (node.parentNode.nodeName === 'DETAILS') {
             node = node.parentNode;
-            node.setAttribute("open", "");
+            node.setAttribute('open', '');
         }
     }
 
@@ -112,11 +110,11 @@ export default class EzTree {
 
     setSelected(el) {
         if (el)
-            el.setAttribute("selected", "true");
+            el.setAttribute('selected', 'true');
     }
 
     unsetSelected(el) {
-        el.removeAttribute("selected");
+        el.removeAttribute('selected');
     }
 
     findNode(id) {
