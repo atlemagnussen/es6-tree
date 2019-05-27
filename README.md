@@ -74,7 +74,37 @@ tree.on("select", (n) => {
 });
 ```
 
-#### Select from outside
+### Methods for interaction
+#### select(id)
+Select a node with code, will open all parent nodes as well
 ```js
 tree.select("article-2");
+```
+
+#### open(id)
+Open a node that has children with code
+```js
+tree.open("folder-1");
+```
+
+### Override styles
+#### color on hover nodes
+```css
+.es6-tree summary:hover {
+    background: purple;
+}
+```
+
+#### color for selected node
+```css
+.es6-tree span[selected="true"]{
+    background-color: red;
+}
+```
+
+#### color on icon
+```css
+.es6-tree .node-text.icon-file::before {
+    color: #e6d06c;
+}
 ```
