@@ -4,12 +4,12 @@ Using [Octicons](https://octicons.github.com/) from Github
 
 <p>
 <figure>
-    <img alt="es6-tree example 1" src="https://storage.googleapis.com/atle-static/pics/es6-tree-example.jpg">
     <figcaption>Default</figcaption>
+    <img alt="es6-tree example 1" src="https://storage.googleapis.com/atle-static/pics/es6-tree-example.jpg">
 </figure>
 <figure>
-    <img alt="es6-tree example 2" src="https://storage.googleapis.com/atle-static/pics/es6-tree-cus1.jpg">
     <figcaption>Customized</figcaption>
+    <img alt="es6-tree example 2" src="https://storage.googleapis.com/atle-static/pics/es6-tree-cus1.jpg">
 </figure>
 </p>
 
