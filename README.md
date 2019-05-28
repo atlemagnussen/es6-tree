@@ -2,7 +2,16 @@
 tree view for web with vanilla ES6 Javascript  
 Using [Octicons](https://octicons.github.com/) from Github
 
-![es6-tree example](https://storage.googleapis.com/atle-static/pics/es6-tree-example.jpg)  
+<p>
+<figure>
+    <img alt="es6-tree example 1" src="https://storage.googleapis.com/atle-static/pics/es6-tree-example.jpg">
+    <figcaption>Default</figcaption>
+</figure>
+<figure>
+    <img alt="es6-tree example 2" src="https://storage.googleapis.com/atle-static/pics/es6-tree-cus1.jpg">
+    <figcaption>Customized</figcaption>
+</figure>
+</p>
 
 - Override styles easily
 - Select event as node is clicked
@@ -108,3 +117,4 @@ tree.open("folder-1");
     color: #e6d06c;
 }
 ```
+
