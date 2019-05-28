@@ -37,6 +37,8 @@ const tree = new EsTree('tree-div', config, data);
 ```
 
 ### Config
+You can pass `null` to use default config.  
+Types will be mapped to the type in your data, customize their styles like this:
 ```js
 const config = {
     types: {
