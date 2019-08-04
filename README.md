@@ -16,6 +16,7 @@ Using [Octicons](https://octicons.github.com/) from Github
 - Override styles easily
 - Select event as node is clicked
 - Select node from outside
+- Supports anchor with href
 
 ## Dependencies
 none
@@ -65,7 +66,8 @@ const data = [{
             children: [{
                     id: "article-1",
                     name: "An article",
-                    type: "file"
+                    type: "file",
+                    href: "/blog/1"
                 },
                 {
                     id: "article-2",

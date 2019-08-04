@@ -9,7 +9,7 @@ export default class EzTree {
         this.parentEl.classList.add('es6-tree');
         this.config = config ? config : {};
         this.data = data;
-        this.on('select', (n) => { this.handleSelect(n.id); });
+        this.on('select', (n) => { this.handleSelect(n.id); }, true);
         this.append(this.parentEl, this.data);
     }
 
@@ -26,7 +26,15 @@ export default class EzTree {
                 s.id = n.id;
                 span.id = n.id;
             }
-            span.innerText = n.name;
+            if(n.href) {
+                const a = document.createElement('a');
+                a.innerText = n.name;
+                a.id = n.id;
+                a.setAttribute('href', n.href);
+                span.appendChild(a);
+            } else {
+                span.innerText = n.name;
+            }
             span.classList.add('node-text');
             s.appendChild(span);
             this.handleType(n, span);
@@ -55,14 +63,16 @@ export default class EzTree {
         }
     }
 
-    on(eventName, fn) {
+    on(eventName, fn, dontPreventDefault) {
         switch (eventName) {
         case 'select':
         {
             this.parentEl.addEventListener('click', (cev) => {
-                if (cev.target.nodeName === 'SPAN') {
+                if (['SPAN', 'A', 'SUMMARY'].includes(cev.target.nodeName) && cev.target.id) {
                     const id = cev.target.id;
                     const node = this.findNode(id);
+                    if (!dontPreventDefault)
+                        cev.preventDefault();
                     if (node && node.id) {
                         fn(node);
                     } else {

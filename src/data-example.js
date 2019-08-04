@@ -11,7 +11,8 @@ export default [{
         children: [{
             id: 'js-beginners',
             name: 'JS beginners',
-            type: 'file'
+            type: 'file',
+            href: '/blog/js-beginners'
         },
         {
             id: 'html-beginners',
