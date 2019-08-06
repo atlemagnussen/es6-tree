@@ -2,11 +2,21 @@
 tree view for web with vanilla ES6 Javascript  
 Using [Octicons](https://octicons.github.com/) from Github
 
-![es6-tree example](https://storage.googleapis.com/atle-static/pics/es6-tree-example.jpg)  
+<p>
+<figure>
+    <figcaption>Default</figcaption>
+    <img alt="es6-tree example 1" src="https://storage.googleapis.com/atle-static/pics/es6-tree-example.jpg">
+</figure>
+<figure>
+    <figcaption>Customized</figcaption>
+    <img alt="es6-tree example 2" src="https://storage.googleapis.com/atle-static/pics/es6-tree-cus1.jpg">
+</figure>
+</p>
 
 - Override styles easily
 - Select event as node is clicked
 - Select node from outside
+- Supports anchor with href
 
 ## Dependencies
 none
@@ -28,6 +38,8 @@ const tree = new EsTree('tree-div', config, data);
 ```
 
 ### Config
+You can pass `null` to use default config.  
+Types will be mapped to the type in your data, customize their styles like this:
 ```js
 const config = {
     types: {
@@ -54,7 +66,8 @@ const data = [{
             children: [{
                     id: "article-1",
                     name: "An article",
-                    type: "file"
+                    type: "file",
+                    href: "/blog/1"
                 },
                 {
                     id: "article-2",
@@ -74,7 +87,38 @@ tree.on("select", (n) => {
 });
 ```
 
-#### Select from outside
+### Methods for interaction
+#### select(id)
+Select a node with code, will open all parent nodes as well
 ```js
 tree.select("article-2");
 ```
+
+#### open(id)
+Open a node that has children with code
+```js
+tree.open("folder-1");
+```
+
+### Override styles
+#### color on hover nodes
+```css
+.es6-tree summary:hover {
+    background: purple;
+}
+```
+
+#### color for selected node
+```css
+.es6-tree span[selected="true"]{
+    background-color: red;
+}
+```
+
+#### color on icon
+```css
+.es6-tree .node-text.icon-file::before {
+    color: #e6d06c;
+}
+```
+
