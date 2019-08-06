@@ -9,7 +9,7 @@ export default class EzTree {
         this.parentEl.classList.add('es6-tree');
         this.config = config ? config : {};
         this.data = data;
-        this.on('select', (n) => { this.handleSelect(n.id); }, true);
+        this.handleInternalSelect();
         this.append(this.parentEl, this.data);
     }
 
@@ -71,13 +71,20 @@ export default class EzTree {
                 if (['SPAN', 'A', 'SUMMARY'].includes(cev.target.nodeName) && cev.target.id) {
                     const id = cev.target.id;
                     const node = this.findNode(id);
+                    node.detailsOpenMustBeHandled = true;
                     if (!dontPreventDefault)
                         cev.preventDefault();
+                    else {
+                        cev.stopPropagation();
+                    }
                     if (node && node.id) {
                         fn(node);
                     } else {
                         fn({id});
                     }
+                }
+                if (cev.target.nodeName === 'DETAILS') {
+                    cev.preventDefault();
                 }
             });
             break;
@@ -99,11 +106,30 @@ export default class EzTree {
             node.setAttribute('open', '');
         }
     }
-
+    handleInternalSelect() {
+        this.parentEl.addEventListener('click', (cev) => {
+            if (['SPAN', 'A', 'SUMMARY'].includes(cev.target.nodeName) && cev.target.id) {
+                const id = cev.target.id;
+                const node = this.findNode(id);
+                if (node && node.id) {
+                    this.handleSelect(node.id);
+                } else {
+                    this.handleSelect({id});
+                }
+            }
+        });
+    }
     handleSelect(id) {
         if (!id) {
             return;
         }
+
+        const node = this.findNode(id);
+        if (node.children && node.detailsOpenMustBeHandled) {
+            const p = this.parentEl.querySelector(`summary#${id}`).parentElement;
+            p.open = !p.open;
+        }
+
         if (this.selectedId) {
             if (this.selectedId === id) {
                 return;
