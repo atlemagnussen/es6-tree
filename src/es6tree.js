@@ -49,7 +49,7 @@ export default class EzTree {
 
     handleType(node, el) {
         if (node.type && this.config.types) {
-            if (Object.prototype.hasOwnProperty(this.config.types, node.type)) {
+            if (Object.prototype.hasOwnProperty.call(this.config.types, node.type)) {
                 const type = this.config.types[node.type];
                 if (type.css) {
                     const classes = type.css.split(' ');
@@ -71,7 +71,7 @@ export default class EzTree {
                 if (['SPAN', 'A', 'SUMMARY'].includes(cev.target.nodeName) && cev.target.id) {
                     const id = cev.target.id;
                     const node = this.findNode(id);
-                    node.detailsOpenMustBeHandled = true;
+                    this.handleOpen(node);
                     if (!dontPreventDefault)
                         cev.preventDefault();
                     else {
@@ -106,6 +106,18 @@ export default class EzTree {
             node.setAttribute('open', '');
         }
     }
+    handleOpen(node) {
+        if (!node.detailsOpenMustBeHandled) {
+            node.detailsOpenMustBeHandled = true;
+            if (node.id && node.children && Array.isArray(node.children)) {
+                this.toggleOpen(node.id);
+            }
+        }
+    }
+    toggleOpen(id) {
+        const p = this.parentEl.querySelector(`summary#${id}`).parentElement;
+        if (p) p.open = !p.open;
+    }
     handleInternalSelect() {
         this.parentEl.addEventListener('click', (cev) => {
             if (['SPAN', 'A', 'SUMMARY'].includes(cev.target.nodeName) && cev.target.id) {
@@ -126,8 +138,7 @@ export default class EzTree {
 
         const node = this.findNode(id);
         if (node.children && node.detailsOpenMustBeHandled) {
-            const p = this.parentEl.querySelector(`summary#${id}`).parentElement;
-            p.open = !p.open;
+            this.toggleOpen(id);
         }
 
         if (this.selectedId) {
