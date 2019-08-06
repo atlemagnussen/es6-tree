@@ -1,6 +1,6 @@
 {
   "name": "es6-tree",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "tree view for web with vanilla js",
   "main": "index.js",
   "scripts": {
