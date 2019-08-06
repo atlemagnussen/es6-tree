@@ -49,7 +49,7 @@ export default class EzTree {
 
     handleType(node, el) {
         if (node.type && this.config.types) {
-            if (this.config.types.hasOwnProperty(node.type)) {
+            if (Object.prototype.hasOwnProperty(this.config.types, node.type)) {
                 const type = this.config.types[node.type];
                 if (type.css) {
                     const classes = type.css.split(' ');
