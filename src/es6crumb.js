@@ -8,7 +8,7 @@ export default class EzCrumb {
         }
         this.parentEl.classList.add("ez-crumb");
         if (!data || !Array.isArray(data) || data.length !== 1) {
-            throw new Error(`data needs to be an array and with only 1 root element`);
+            throw new Error('data needs to be an array and with only 1 root element');
         }
         this.data = data;
         this.appendRoot();
