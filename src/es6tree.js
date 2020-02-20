@@ -1,3 +1,5 @@
+import './es6tree.css';
+
 export default class EsTree {
     constructor(parentId, config, data) {
         this.selectedId = null;

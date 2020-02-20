@@ -1,12 +1,12 @@
 {
   "name": "es6-tree",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "tree view for web with vanilla js",
   "main": "dist/es6tree.js",
   "module": "dist/es6tree.esm.js",
   "scripts": {
     "start": "cd src && static-server",
-    "build": "rollup -c && uglifycss src/es6tree.css > ./dist/es6tree.min.css"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,6 @@
   "devDependencies": {
     "rollup": "^1.31.1",
     "rollup-plugin-copy": "^3.3.0",
-    "uglifycss": "0.0.29"
+    "rollup-plugin-css-only": "^2.0.0"
   }
 }
