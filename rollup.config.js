@@ -11,7 +11,7 @@ export default [
         plugins: [
             copy({
                 targets: [
-                    { src: 'src/es6tree.js', dest: 'dist/es6tree.esm.js' }
+                    { src: 'src/es6tree.js', dest: 'dist', rename: 'es6tree.esm.js' }
                 ]
             })
         ]

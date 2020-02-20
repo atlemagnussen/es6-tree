@@ -1,6 +1,6 @@
 {
   "name": "es6-tree",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "tree view for web with vanilla js",
   "main": "dist/es6tree.js",
   "module": "dist/es6tree.esm.js",
