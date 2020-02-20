@@ -33,7 +33,7 @@ none
 </body>
 ```
 ```js
-import EsTree from './es6tree.js';
+import EsTree from 'es6tree';
 const tree = new EsTree('tree-div', config, data);
 ```
 

@@ -1,4 +1,4 @@
-export default class EzTree {
+export default class EsTree {
     constructor(parentId, config, data) {
         this.selectedId = null;
         this.parentId = parentId;
