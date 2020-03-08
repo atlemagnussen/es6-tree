@@ -1,4 +1,5 @@
 import './es6tree.css';
+import octicons from 'octicons';
 
 export default class EsTree {
     constructor(parentId, config, data) {
@@ -13,6 +14,10 @@ export default class EsTree {
         this.data = data;
         this.handleInternalSelect();
         this.append(this.parentEl, this.data);
+
+        var svg = document.createElement('div');
+        svg.innerHTML = octicons.alert.toSVG();
+        this.parentEl.appendChild(svg);
     }
 
     append(p, data) {
