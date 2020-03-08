@@ -102,7 +102,7 @@ export default class EsTree {
     }
 
     open(id) {
-        let node = document.getElementById(id);
+        let node = this.parentEl.querySelector(`summary#${id}`);
         while (node.parentNode.nodeName === 'DETAILS') {
             node = node.parentNode;
             node.setAttribute('open', '');
