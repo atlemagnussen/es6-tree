@@ -1,12 +1,13 @@
 {
   "name": "es6-tree",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "tree view for web with vanilla js",
   "main": "dist/es6tree.js",
   "module": "dist/es6tree.esm.js",
   "scripts": {
     "start": "cd src && static-server",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "publish": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
