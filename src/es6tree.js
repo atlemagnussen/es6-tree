@@ -1,13 +1,21 @@
-import './es6tree.css';
+// import './es6tree.css';
+// const octicons = require('@primer/octicons');
+import octicons from '@primer/octicons';
 
 export default class EsTree {
-    constructor(parentId, config, data) {
+    constructor(parent, config, data) {
         this.selectedId = null;
-        this.parentId = parentId;
-        this.parentEl = document.getElementById(parentId);
-        if (!this.parentEl) {
-            throw new Error(`Can't find element with id ${parentId}`);
+        if (parent instanceof HTMLElement)
+            this.parentEl = parent;
+        else if (typeof(parent) === 'string') {
+            this.parentEl = document.getElementById(parent);
+            if (!this.parentEl) {
+                throw new Error(`Can't find element with id ${parent}`);
+            }
+        } else {
+            throw new Error('Neither parent element or parent id was provided');
         }
+        console.log(octicons.alert);
         this.parentEl.classList.add('es6-tree');
         this.config = config ? config : {};
         this.data = data;
